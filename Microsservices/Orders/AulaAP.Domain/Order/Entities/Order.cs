@@ -21,7 +21,7 @@ namespace AulaAP.Domain.Entities
 
         public override bool IsValid()
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }

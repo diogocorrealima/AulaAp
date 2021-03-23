@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj": {}
+    "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj": {}
   },
   "projects": {
-    "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj": {
+    "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
         "projectName": "AulaAP.Domain.Shared",
-        "projectPath": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
+        "projectPath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\obj\\",
+        "outputPath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj": {
+    "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj",
+        "projectUniqueName": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj",
         "projectName": "AulaAP.Domain",
-        "projectPath": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj",
+        "projectPath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj",
         "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain\\obj\\",
+        "outputPath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj": {
-                "projectPath": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj"
+              "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj": {
+                "projectPath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj"
               }
             }
           }
@@ -111,6 +111,18 @@
             "FluentValidator": {
               "target": "Package",
               "version": "[2.0.4, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

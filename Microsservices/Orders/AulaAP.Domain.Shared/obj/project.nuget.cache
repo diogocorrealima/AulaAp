@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kbp93kpO67o6YvxQNgj/DhrCQtQ+rWRijoS7ERVCAHod1Hqehk0/qaTpizZSdfnA3DZXyRXUNzWQDnJViUUQAg==",
+  "dgSpecHash": "8ArdqJ1ZbsHsNdhHHNYx01ZzTjz/bcE3oFHU9n2/VYUIaXZgP7tk5RJrtKNy1JngmUDtd/A7qwFQrex6z/FVsQ==",
   "success": true,
-  "projectFilePath": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
+  "projectFilePath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

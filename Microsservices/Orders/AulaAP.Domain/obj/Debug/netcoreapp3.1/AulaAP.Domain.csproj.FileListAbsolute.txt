@@ -2,3 +2,11 @@ C:\GIT\AulaAP\Microsservices\Orders\AulaAP.Domain\bin\Debug\netcoreapp3.1\AulaAP
 C:\GIT\AulaAP\Microsservices\Orders\AulaAP.Domain\obj\Debug\netcoreapp3.1\AulaAP.Domain.csprojAssemblyReference.cache
 C:\GIT\AulaAP\Microsservices\Orders\AulaAP.Domain\obj\Debug\netcoreapp3.1\AulaAP.Domain.AssemblyInfoInputs.cache
 C:\GIT\AulaAP\Microsservices\Orders\AulaAP.Domain\obj\Debug\netcoreapp3.1\AulaAP.Domain.AssemblyInfo.cs
+C:\GIT\AulaAp\Microsservices\Orders\AulaAP.Domain\bin\Debug\netcoreapp3.1\AulaAP.Domain.deps.json
+C:\GIT\AulaAp\Microsservices\Orders\AulaAP.Domain\bin\Debug\netcoreapp3.1\AulaAP.Domain.dll
+C:\GIT\AulaAp\Microsservices\Orders\AulaAP.Domain\bin\Debug\netcoreapp3.1\AulaAP.Domain.pdb
+C:\GIT\AulaAp\Microsservices\Orders\AulaAP.Domain\bin\Debug\netcoreapp3.1\AulaAP.Domain.Shared.pdb
+C:\GIT\AulaAp\Microsservices\Orders\AulaAP.Domain\obj\Debug\netcoreapp3.1\AulaAP.Domain.csproj.CoreCompileInputs.cache
+C:\GIT\AulaAp\Microsservices\Orders\AulaAP.Domain\obj\Debug\netcoreapp3.1\AulaAP.Domain.csproj.CopyComplete
+C:\GIT\AulaAp\Microsservices\Orders\AulaAP.Domain\obj\Debug\netcoreapp3.1\AulaAP.Domain.dll
+C:\GIT\AulaAp\Microsservices\Orders\AulaAP.Domain\obj\Debug\netcoreapp3.1\AulaAP.Domain.pdb

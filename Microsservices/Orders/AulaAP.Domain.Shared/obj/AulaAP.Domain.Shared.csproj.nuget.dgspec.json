@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj": {}
+    "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj": {}
   },
   "projects": {
-    "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj": {
+    "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
         "projectName": "AulaAP.Domain.Shared",
-        "projectPath": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
+        "projectPath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\AulaAP\\Microsservices\\Orders\\AulaAP.Domain.Shared\\obj\\",
+        "outputPath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
