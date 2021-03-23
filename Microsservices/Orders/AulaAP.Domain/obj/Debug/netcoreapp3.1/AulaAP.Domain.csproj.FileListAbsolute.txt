@@ -1,4 +1,0 @@
-C:\GIT\AulaAP\Microsservices\Orders\AulaAP.Domain\bin\Debug\netcoreapp3.1\AulaAP.Domain.Shared.dll
-C:\GIT\AulaAP\Microsservices\Orders\AulaAP.Domain\obj\Debug\netcoreapp3.1\AulaAP.Domain.csprojAssemblyReference.cache
-C:\GIT\AulaAP\Microsservices\Orders\AulaAP.Domain\obj\Debug\netcoreapp3.1\AulaAP.Domain.AssemblyInfoInputs.cache
-C:\GIT\AulaAP\Microsservices\Orders\AulaAP.Domain\obj\Debug\netcoreapp3.1\AulaAP.Domain.AssemblyInfo.cs

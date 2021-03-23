@@ -103,3 +103,6 @@ package-lock.json
 healthchecksdb
 /*.lock
 pubspec.lock
+
+**/bin
+**/obj
