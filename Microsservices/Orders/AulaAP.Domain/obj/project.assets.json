@@ -4564,8 +4564,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diogo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\diogo.correa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4573,14 +4572,11 @@
       "projectUniqueName": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj",
       "projectName": "AulaAP.Domain",
       "projectPath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj",
-      "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\diogo.correa\\.nuget\\packages\\",
       "outputPath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\diogo.correa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4646,7 +4642,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

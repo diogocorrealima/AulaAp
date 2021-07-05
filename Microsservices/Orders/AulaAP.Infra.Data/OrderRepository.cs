@@ -17,7 +17,8 @@ namespace AulaAP.Infra.Data
         {
             var products = new List<Product>();
             products.Add(new Product(Guid.NewGuid().ToString(),"Dipirona", 10, 2));
-            return await Task.FromResult(new Order(Order.GenerateOrderCode(), products));
+
+            return await Task.FromResult(new Order(orderCode, products));
         }
 
         public async Task<IEnumerable<Order>> GetAll()

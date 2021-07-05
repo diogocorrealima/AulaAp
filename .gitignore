@@ -103,3 +103,4 @@ package-lock.json
 healthchecksdb
 /*.lock
 pubspec.lock
+/Docker/data
