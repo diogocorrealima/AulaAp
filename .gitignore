@@ -104,3 +104,4 @@ healthchecksdb
 /*.lock
 pubspec.lock
 /Docker/data
+/UI/ecommerce/node_modules/

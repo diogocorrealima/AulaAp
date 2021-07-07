@@ -1,4 +1,5 @@
 ﻿using AulaAP.Domain.Commands;
+using AulaAP.Domain.Events;
 using AulaAP.Domain.Interfaces;
 using AulaAP.Domain.Services;
 using MediatR;
@@ -15,7 +16,8 @@ namespace AulaAP.Domain.IoC
         public static void RegisterDomainDependencies(this IServiceCollection service) =>
             service
             .AddMediatR(typeof(RegisterOrderCommand).GetTypeInfo().Assembly)
-            .AddScoped<IRequestHandler<RegisterOrderCommand>, OrderCommandHandler>();
+            .AddScoped<IRequestHandler<RegisterOrderCommand>, OrderCommandHandler>()
+            .AddScoped<INotificationHandler<RegisteredOrderEvent>, OrderEventHandler>();
         
     }
 }

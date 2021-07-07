@@ -1,4 +1,6 @@
 ﻿using AulaAP.Domain.Shared;
+using AulaAP.Domain.Validators;
+using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +23,10 @@ namespace AulaAP.Domain.Entities
 
         public override bool IsValid()
         {
-            return true;
+            var validator = new OrderValidator();
+            validationResult = validator.Validate(this);
+
+            return validationResult.IsValid;
         }
     }
 }

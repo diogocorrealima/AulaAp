@@ -1,6 +1,8 @@
 ﻿using AulaAP.Application;
 using AulaAP.Application.ViewModels;
 using AulaAP.Domain.Interfaces;
+using AulaAP.Domain.Shared;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -12,14 +14,15 @@ namespace AulaAP.Services.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class OrdersController : ControllerBase
+    public class OrdersController : MainController
     {
 
         private readonly ILogger<OrdersController> logger;
         private readonly IOrderApplication orderApplication;
         private readonly IOrderRepository orderRepository;
 
-        public OrdersController(ILogger<OrdersController> logger, IOrderApplication orderApplication, IOrderRepository orderRepository)
+        public OrdersController(ILogger<OrdersController> logger, IOrderApplication orderApplication, IOrderRepository orderRepository, INotificationHandler<DomainNotification> notificationHandler, IMediator mediator)
+            : base(notificationHandler, mediator)
         {
             this.logger = logger;
             this.orderApplication = orderApplication;
@@ -31,17 +34,16 @@ namespace AulaAP.Services.Api.Controllers
         {
             try
             {
-                if (!orderCreateViewModel.Products.Any())
+                if (!ValidOperation())
                 {
-                    return BadRequest(new { Erro = "O Pedido está incorreto." });
+                    return Response();
                 }
                 logger.LogInformation("Iniciando criação do pedido: {0}", orderCreateViewModel);
                 await orderApplication.CreateOrder(orderCreateViewModel);
-                return Ok(orderCreateViewModel);
+                return Response(orderCreateViewModel);
             }
             catch (Exception ex)
             {
-
                 return BadRequest(ex.Message);
             }
         }

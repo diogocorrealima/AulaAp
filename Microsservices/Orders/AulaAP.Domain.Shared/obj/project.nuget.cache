@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8gCkzT7iwvJhJmFsQkPD2NnDwMB82bSevYq4gqok2OdzkJGIp3BwdUqyWaBS9WebGfIa7DVfBfOjoxoGldwueA==",
+  "dgSpecHash": "ZL6TcuDzABgsBI0yvwiZ2fD7rZA0tQvCEp3WYk40LsvNBK3Iuz1KY3Gl9CIBEjpPFLtD1aUY4JxfQDJrB23oLw==",
   "success": true,
   "projectFilePath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain.Shared\\AulaAP.Domain.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\diogo.correa\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
+    "C:\\Users\\diogo.correa\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\diogo.correa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DisH14lYgkgxYt98Z3dqkr/aK4udqxPsdNmqYtL3AyIAOxwH8QuwkNbtO3gH37HHfx6DoVAoRi67PGxcZugkCg==",
+  "dgSpecHash": "GTYSxMnfQjv4A58d65pAcQuVfVfaV5AHd9ippxJxw4VSgREKcdnIszXxz8bYk8PhEgtckUsjM5ukJTJ7E2ixBQ==",
   "success": true,
   "projectFilePath": "C:\\GIT\\AulaAp\\Microsservices\\Orders\\AulaAP.Domain\\AulaAP.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\diogo.correa\\.nuget\\packages\\fluentvalidation\\9.5.3\\fluentvalidation.9.5.3.nupkg.sha512",
+    "C:\\Users\\diogo.correa\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\diogo.correa\\.nuget\\packages\\fluentvalidator\\2.0.4\\fluentvalidator.2.0.4.nupkg.sha512",
     "C:\\Users\\diogo.correa\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\diogo.correa\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

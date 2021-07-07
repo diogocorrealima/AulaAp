@@ -1,5 +1,6 @@
 using AulaAP.Application.IoC;
 using AulaAP.Domain.IoC;
+using AulaAP.Domain.Shared;
 using AulaAP.Infra.Data.IoC;
 using AulaAP.Services.Api.Configurations.AutoMapperConfig;
 using Microsoft.AspNetCore.Builder;
@@ -31,8 +32,9 @@ namespace AulaAP.Services.Api
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            services.AddControllers().ConfigureApiBehaviorOptions(options => { options.SuppressModelStateInvalidFilter = true; });
             services.AddAutoMapperConfiguration();
+            services.RegisterDomainSharedDependencies();
             services.RegisterApplicationDependencies();
             services.RegisterDomainDependencies();
             services.RegisterDataDependencies();

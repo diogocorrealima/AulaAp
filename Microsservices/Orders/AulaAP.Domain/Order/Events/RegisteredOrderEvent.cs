@@ -5,9 +5,9 @@ using System.Text;
 
 namespace AulaAP.Domain.Events
 {
-    public class RegisteredOrderSuccessEvent : Event
+    public class RegisteredOrderEvent : Event
     {
-        public RegisteredOrderSuccessEvent(string orderCode)
+        public RegisteredOrderEvent(string orderCode)
         {
             OrderCode = orderCode;
         }
